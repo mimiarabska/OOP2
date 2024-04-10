@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\OOP2\OOP2\Exercise1\Week1OOP2\Week1OOP2\bin\Debug\Week1OOP2.exe.config
+C:\Users\user\Desktop\OOP2\OOP2\Exercise1\Week1OOP2\Week1OOP2\bin\Debug\Week1OOP2.exe
+C:\Users\user\Desktop\OOP2\OOP2\Exercise1\Week1OOP2\Week1OOP2\bin\Debug\Week1OOP2.pdb
+C:\Users\user\Desktop\OOP2\OOP2\Exercise1\Week1OOP2\Week1OOP2\obj\Debug\Week1OOP2.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\OOP2\OOP2\Exercise1\Week1OOP2\Week1OOP2\obj\Debug\Week1OOP2.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\OOP2\OOP2\Exercise1\Week1OOP2\Week1OOP2\obj\Debug\Week1OOP2.exe
+C:\Users\user\Desktop\OOP2\OOP2\Exercise1\Week1OOP2\Week1OOP2\obj\Debug\Week1OOP2.pdb

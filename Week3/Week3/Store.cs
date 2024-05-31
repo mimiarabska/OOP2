@@ -8,7 +8,7 @@ namespace Week3
 {
     class Store
     {
-        public List<Product> Products { get; set; }
+        public List<Product> Products { get; set; }//свойство
         public void AddProduct(Product product)
         {
             Products.Add(product);

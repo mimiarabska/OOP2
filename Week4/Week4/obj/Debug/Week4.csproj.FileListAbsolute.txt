@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\OOP2\OOP2\Week4\Week4\bin\Debug\Week4.exe.config
+C:\Users\user\Desktop\OOP2\OOP2\Week4\Week4\bin\Debug\Week4.exe
+C:\Users\user\Desktop\OOP2\OOP2\Week4\Week4\bin\Debug\Week4.pdb
+C:\Users\user\Desktop\OOP2\OOP2\Week4\Week4\obj\Debug\Week4.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\OOP2\OOP2\Week4\Week4\obj\Debug\Week4.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\OOP2\OOP2\Week4\Week4\obj\Debug\Week4.exe
+C:\Users\user\Desktop\OOP2\OOP2\Week4\Week4\obj\Debug\Week4.pdb

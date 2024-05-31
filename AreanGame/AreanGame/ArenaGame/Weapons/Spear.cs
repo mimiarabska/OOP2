@@ -27,15 +27,14 @@ namespace ArenaGame.Weapons
         {
             Name = name;
             AttackDamage = 30;
+            if (IsCriticalHit)
+            {
+                AttackDamage += AttackDamage * 2;
+            }
             BlockingPower = 7;
             Range = 3;
             CriticalHitChance = 10;
         }
-        public void Attack()
-        {
-            bool isCriticalHit = IsCriticalHit();
-            double finalDamage = isCriticalHit ? AttackDamage * 2 : AttackDamage;
-            Console.WriteLine($"{Name} attack: {finalDamage} damage{(isCriticalHit ? " (Critical Hit!)" : "")}");
-        }
+
     }
 }

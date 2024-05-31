@@ -18,29 +18,28 @@ namespace ArenaGame.Weapons
         {
             return random.NextDouble() <= CriticalHitChance / 100.0;
         }
+        private bool IsPoisoned()
+        {
+            return random.NextDouble() <= HasPoisonedArrow / 100.0;
+        }
 
         public Crossbow(string name)
         {
             Name = name;
             AttackDamage = 15;
+            HasPoisonedArrow = 3;
+            if (IsPoisoned)
+            {
+                AttackDamage = AttackDamage*2;
+            }
+            if (IsCriticalHit)
+            {
+                AttackDamage += AttackDamage * 3;
+            }
             BlockingPower = 12;
             CriticalHitChance = 5;
-            
-
         }
-        public double Attack()
-        {
-            bool isCriticalHit = IsCriticalHit();
-            double finalDamage = isCriticalHit ? AttackDamage * 2 : AttackDamage;
 
-            if (HasPoisonedArrow)
-            {
-                int poisonDamagePercentage = random.Next(1, 31);
-                finalDamage += finalDamage * poisonDamagePercentage / 100.0;
-            }
-
-            return finalDamage;
-        }
 
     }
 }
